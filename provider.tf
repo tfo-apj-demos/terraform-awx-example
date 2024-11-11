@@ -1,8 +1,12 @@
 terraform {
   required_providers {
+    # aap = {
+    #   source  = "ansible/aap"
+    #   version = "~> 1.0.0"
+    # }
     aap = {
-      source  = "ansible/aap"
-      version = "~> 1.0.0"
+      source  = "tfo-apj-demos/aap"
+      version = "~> 1.0.2"
     }
     vsphere = {
       source  = "hashicorp/vsphere"
